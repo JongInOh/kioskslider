@@ -26,3 +26,20 @@
 // })
 
 // let result = document.addEventListener
+const resultElement = $('.result');
+let count = resultElement[0].innerText;
+
+$('.minus').on('click', function () {
+	count--;
+	if (count < 0) {
+		count = 0;
+	}
+	console.log(count);
+	resultElement[0].innerText = count;
+});
+
+$('.plus').on('click', function () {
+	count++;
+	console.log(count);
+	resultElement[0].innerText = count;
+});

@@ -7,7 +7,7 @@ $('.slider').slick({
 	// nextArrow : "<button type='button' class='slick-next'><i class="fa-solid fa-circle-chevron-right"></i></button>",
 });
 
-$('.button').click(function () {
+$('.button').on('click', function () {
 	let $this = $(this);
 	let index = $this.index();
 
@@ -26,44 +26,44 @@ $('.button').click(function () {
 
 // conform 주문 yes or no
 
-$('.item').click(function () {
+$('.item').on('click', function () {
 	$('section').animate({ opacity: '0.7' }, 0);
 	$('#pop').show();
 });
 
-$('.close').click(function () {
+$('.close').on('click', function () {
 	$('section').animate({ opacity: '1' }, 0);
 	$('#pop').hide();
 });
 
-{
-	$(function () {
-		$.ajax({
-			url: 'js/item.json',
-			dataType: 'json',
-			success: function (data) {
-				if (data.length > 0) {
-					var a = $('');
-					for (var i in data) {
-						var $img = data[i].img;
-						var $name = data[i].name;
-						// var $last_name = data[i].last_name;
-						// var $email = data[i].email;
-						var $price = data[i].price;
+// {
+// 	$(function () {
+// 		$.ajax({
+// 			url: 'js/item.json',
+// 			dataType: 'json',
+// 			success: function (data) {
+// 				if (data.length > 0) {
+// 					var a = $('');
+// 					for (var i in data) {
+// 						var $img = data[i].img;
+// 						var $name = data[i].name;
+// 						// var $last_name = data[i].last_name;
+// 						// var $email = data[i].email;
+// 						var $price = data[i].price;
 
-						var b = $('<tr/>').append(
-							$('<td/>').text($img),
-							$('<td/>').text($name),
-							// $("<td/>").text($last_name),
-							// $("<td/>").text($email),
-							$('<td/>').text($price)
-						);
+// 						var b = $('<tr/>').append(
+// 							$('<td/>').text($img),
+// 							$('<td/>').text($name),
+// 							// $("<td/>").text($last_name),
+// 							// $("<td/>").text($email),
+// 							$('<td/>').text($price)
+// 						);
 
-						a.append(b);
-					}
-					$('.close').append(a);
-				}
-			},
-		});
-	});
-}
+// 						a.append(b);
+// 					}
+// 					$('.close').append(a);
+// 				}
+// 			},
+// 		});
+// 	});
+// }
