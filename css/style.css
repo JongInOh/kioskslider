@@ -1,0 +1,128 @@
+/* section {
+	text-align: center;
+}
+h1 {
+	margin: 0 auto;
+	font-size: 8vw;
+}
+.menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+	font-size: 25px;
+	margin: 35px 0 0 0;
+}
+.col {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.col > span {
+	line-height: 1.2;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+}
+.col > span > p {
+	margin: 10px 0 10px 0;
+}
+.col > span > p > button {
+	font-size: 25px;
+	margin-left: 2px;
+}
+img {
+	height: 22vw;
+	width: 32vw;
+	border-radius: 30px;
+	border: 1px solid #000000;
+}
+
+} */
+
+body {
+	text-align: center;
+	margin: 0 auto;
+	transition: all 0.5s;
+}
+h1 {
+	margin: 0 auto;
+	font-size: 8vw;
+}
+
+.tabs {
+	padding-top: 50px;
+}
+
+.tab {
+	display: none;
+}
+
+.tab.active {
+	display: block;
+}
+
+/* button {
+	width: 50px;
+	height: 50px;
+	font-size: 16px;
+	display: inline-block;
+	color: darkgreen;
+} */
+
+button.active {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* .slider {
+	width: 500px;
+	height: 300px;
+} */
+
+.item {
+	height: 300px;
+}
+
+/* total */
+.total {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	align-items: center;
+	margin: 20px 0 0 20px;
+	border-top: 5px solid #000000;
+}
+.total > div {
+	font-size: 20px;
+	margin-right: 10px;
+}
+#sumtext {
+	border: none;
+	outline: none;
+	text-align: right;
+	font-size: 20px;
+	width: 100px;
+}
+
+#pop {
+	display: none;
+}
+#pop {
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -250px 0 0 -250px;
+	background-color: #fff;
+	z-index: 2;
+}
+.close {
+	position: absolute;
+	top: -25px;
+	right: 0;
+	cursor: pointer;
+}
