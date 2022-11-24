@@ -1,7 +1,7 @@
 [
 	{
 		"index": 0,
-		"img": "https://images.unsplash.com/photo-1553909489-cd47e0907980?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c2FuZHdpY2h8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+		"img": "images/0.jpg",
 		"alt": "sandwich",
 		"name": "샌드위치",
 		"price": "7900원",
@@ -9,7 +9,7 @@
 	},
 	{
 		"index": 1,
-		"img": "https://images.unsplash.com/photo-1553909489-cd47e0907980?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c2FuZHdpY2h8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+		"img": "images/1.jfif",
 		"alt": "muffin",
 		"name": "머핀",
 		"price": "7900원",
@@ -17,7 +17,7 @@
 	},
 	{
 		"index": 2,
-		"img": "https://images.unsplash.com/photo-1553909489-cd47e0907980?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c2FuZHdpY2h8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+		"img": "images/2.jfif",
 		"alt": "apple",
 		"name": "사과쥬스",
 		"price": "4800원",
@@ -25,7 +25,7 @@
 	},
 	{
 		"index": 3,
-		"img": "https://images.unsplash.com/photo-1553909489-cd47e0907980?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c2FuZHdpY2h8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+		"img": "images/3.jfif",
 		"alt": "grape",
 		"name": "포도쥬스",
 		"price": "4800원",
@@ -33,9 +33,9 @@
 	},
 	{
 		"index": 4,
-		"img": "https://images.unsplash.com/photo-1553909489-cd47e0907980?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c2FuZHdpY2h8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+		"img": "https://images.unsplash.com/photo-1578224709521-ecee303b012f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTkwfHxkcmlua3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
 		"alt": "juice",
-		"name": "렌덤",
+		"name": "석류",
 		"price": "7800원",
 		"value": 7900
 	},

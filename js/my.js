@@ -6,20 +6,18 @@ $(function () {
 	init();
 
 	function init() {
-		const foodimg = document.querySelector('.foodimg');
-		const menu = document.querySelector('.menu');
+		const $menu = $('.menu');
+		//var idx = 0;
 
 		$.ajax({
-			url: '.json/item.json',
+			url: 'js/item.json',
 			dataType: 'json',
 			success: function (data) {
-				foodimg.forEach((img, idx) => {
-					if (img.attributes[0].value == data[idx].index) {
-						$('.foodimg > img').eq(idx).attr('src', data[idx].img);
-						$('.menu > p').eq(idx).text(data[idx].name);
-						$('.menu > p > p').eq(idx).text(data[idx].price);
-						console.log(menu);
-					}
+				//			alert('aaa');
+				$.each(data, function (idx) {
+					$('.foodimg').eq(idx).attr('src', this['img']);
+					$('.menu_name').eq(idx).text(this['name']);
+					$('.menu_price').eq(idx).text(this['price']);
 				});
 			},
 		});
