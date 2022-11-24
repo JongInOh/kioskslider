@@ -1,45 +1,46 @@
-// var sum = 0;
-
-// function calc(button) {
-// 	if (button) sum += parseInt(button.value);
-// 	else sum -= button.value;
-
-// 	document.getElementById('sumtext').value = sum;
-// }
-// $;
-
 // $('#btn_buy').click(function () {
 // 	alert('결제기능은 구현중입니다.');
 // });
 
-// // let num = 2;
+$(function () {
+	init();
 
-// $(document).click(function{
-// 	const resultElement = document.getElementById('result');
+	function init() {
+		const foodimg = document.querySelector('.foodimg');
+		const menu = document.querySelector('.menu');
 
-// 	let number = resultElement.innerText;
-
-// 	function
-// 	if($(document).click(function{
-// 		$('#plus').
-// 	}))
-// })
-
-// let result = document.addEventListener
-const resultElement = $('.result');
-let count = resultElement[0].innerText;
-
-$('.minus').on('click', function () {
-	count--;
-	if (count < 0) {
-		count = 0;
+		$.ajax({
+			url: '.json/item.json',
+			dataType: 'json',
+			success: function (data) {
+				foodimg.forEach((img, idx) => {
+					if (img.attributes[0].value == data[idx].index) {
+						$('.foodimg > img').eq(idx).attr('src', data[idx].img);
+						$('.menu > p').eq(idx).text(data[idx].name);
+						$('.menu > p > p').eq(idx).text(data[idx].price);
+						console.log(menu);
+					}
+				});
+			},
+		});
 	}
-	console.log(count);
-	resultElement[0].innerText = count;
-});
 
-$('.plus').on('click', function () {
-	count++;
-	console.log(count);
-	resultElement[0].innerText = count;
+	$('.minus').on('click', function () {
+		let $result = $(this).next();
+		let count = Number($result.text());
+
+		count--;
+		if (count < 0) {
+			count = 0;
+		}
+		$result.text(count);
+	});
+
+	$('.plus').on('click', function () {
+		let $result = $(this).prev();
+		let count = Number($result.text());
+
+		count++;
+		$result.text(count);
+	});
 });
