@@ -1,50 +1,122 @@
 [
 	{
 		"index": 0,
-		"img": "images/0.jpg",
-		"alt": "sandwich",
-		"name": "샌드위치",
-		"price": "7900원",
-		"value": 7900
+		"img": "images/1donut1.png",
+		"alt": "donut1",
+		"name": "딸기잼도넛",
+		"price": "1200원",
+		"value": 1200
 	},
 	{
 		"index": 1,
-		"img": "images/1.jfif",
-		"alt": "muffin",
-		"name": "머핀",
-		"price": "7900원",
-		"value": 7900
+		"img": "images/1donut2.png",
+		"alt": "donut2",
+		"name": "초코도넛",
+		"price": "1200원",
+		"value": 1200
 	},
 	{
 		"index": 2,
-		"img": "images/2.jfif",
-		"alt": "apple",
-		"name": "사과쥬스",
-		"price": "4800원",
-		"value": 4800
+		"img": "images/1donut3.png",
+		"alt": "donut3",
+		"name": "스프링클도넛",
+		"price": "1500원",
+		"value": 1500
 	},
 	{
 		"index": 3,
-		"img": "images/3.jfif",
-		"alt": "grape",
-		"name": "포도쥬스",
+		"img": "images/1donut4.png",
+		"alt": "donut4",
+		"name": "민트도넛",
+		"price": "1800원",
+		"value": 1800
+	},
+	{
+		"index": 4,
+		"img": "images/1donut5.png",
+		"alt": "donut5",
+		"name": "딸기도넛",
+		"price": "1500원",
+		"value": 1500
+	},
+	{
+		"index": 5,
+		"img": "images/2americano.png",
+		"alt": "americano",
+		"name": "아메리카노",
+		"price": "2500원",
+		"value": 2500
+	},
+	{
+		"index": 6,
+		"img": "images/2coke.png",
+		"alt": "coke",
+		"name": "콜라",
+		"price": "2000원",
+		"value": 2000
+	},
+	{
+		"index": 7,
+		"img": "images/2latte.png",
+		"alt": "latte",
+		"name": "카페라떼",
+		"price": "3500원",
+		"value": 3500
+	},
+	{
+		"index": 8,
+		"img": "images/2mango.png",
+		"alt": "mango",
+		"name": "망고프라페",
+		"price": "4500원",
+		"value": 4500
+	},
+	{
+		"index": 9,
+		"img": "images/2rainbow.png",
+		"alt": "rainbow",
+		"name": "레인보우쥬스",
+		"price": "4000원",
+		"value": 4000
+	},
+	{
+		"index": 10,
+		"img": "images/3.png",
+		"alt": "",
+		"name": "",
+		"price": "원",
+		"value": 
+	},
+	{
+		"index": 11,
+		"img": "images/3sandwich.png",
+		"alt": "sandwich",
+		"name": "샌드위치",
 		"price": "4800원",
 		"value": 4800
 	},
 	{
-		"index": 4,
-		"img": "https://images.unsplash.com/photo-1578224709521-ecee303b012f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTkwfHxkcmlua3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-		"alt": "juice",
-		"name": "석류",
-		"price": "7800원",
-		"value": 7900
+		"index": 12,
+		"img": "images/3hotdog.png",
+		"alt": "hotdog",
+		"name": "핫도그",
+		"price": "3800원",
+		"value": 3800
 	},
 	{
-		"index": 5,
-		"img": "https://images.unsplash.com/photo-1553909489-cd47e0907980?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c2FuZHdpY2h8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-		"alt": "",
-		"name": "샌드위치",
-		"price": "7900원",
-		"value": 7900
+		"index": 13,
+		"img": "images/3salad.png",
+		"alt": "salad",
+		"name": "토마토샐러드",
+		"price": "5500원",
+		"value": 5500
+	},
+	{
+		"index": 14,
+		"img": "images/3seapasta.png",
+		"alt": "seapasta",
+		"name": "해물파스타",
+		"price": "12800원",
+		"value": 12800
 	}
 ]
