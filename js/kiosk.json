@@ -81,11 +81,11 @@
 	},
 	{
 		"index": 10,
-		"img": "images/3.png",
-		"alt": "",
-		"name": "",
-		"price": "원",
-		"value": 
+		"img": "images/3hotdog.png",
+		"alt": "hotdog",
+		"name": "핫도그",
+		"price": "3800원",
+		"value": 3800
 	},
 	{
 		"index": 11,
@@ -97,19 +97,19 @@
 	},
 	{
 		"index": 12,
-		"img": "images/3hotdog.png",
-		"alt": "hotdog",
-		"name": "핫도그",
-		"price": "3800원",
-		"value": 3800
-	},
-	{
-		"index": 13,
 		"img": "images/3salad.png",
 		"alt": "salad",
 		"name": "토마토샐러드",
 		"price": "5500원",
 		"value": 5500
+	},
+	{
+		"index": 13,
+		"img": "images/3creampasta.png",
+		"alt": "creampasta",
+		"name": "크림파스타",
+		"price": "11800원",
+		"value": 11800
 	},
 	{
 		"index": 14,

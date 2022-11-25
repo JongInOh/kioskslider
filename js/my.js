@@ -10,10 +10,10 @@ $(function () {
 		//var idx = 0;
 
 		$.ajax({
-			url: 'js/item.json',
+			url: 'js/kiosk.json',
 			dataType: 'json',
 			success: function (data) {
-				//			alert('aaa');
+				alert('aaa');
 				$.each(data, function (idx) {
 					$('.foodimg').eq(idx).attr('src', this['img']);
 					$('.menu_name').eq(idx).text(this['name']);
